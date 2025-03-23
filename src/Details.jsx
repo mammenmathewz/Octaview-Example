@@ -3,6 +3,26 @@ import React from "react";
 function Details() {
   return (
     <div className="details-container">
+        <section className="details-section">
+        <h2>Test the Demo</h2>
+        <div className="test-info">
+          <p>This is a demonstration of the Octaview Client package. To test the application:</p>
+          <ol>
+            <li>Switch to the "Career Opportunities" tab to view the Octaview client in action</li>
+            <li>Browse through the available job listings</li>
+            <li>Use a proper working email to get email notifications and meet link</li>
+            <li>Click "Apply" on a job listing to test the application process</li>
+          </ol>
+          <div className="demo-credentials">
+            <h3>Demo Dashboard Access</h3>
+            <p>To access the admin dashboard for this demo, use the following credentials:</p>
+            <div className="credentials-box">
+              <p><strong>Email:</strong>octaview.test@yopmail.com</p>
+              <p><strong>Password:</strong> Demo@123</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="details-section">
         <h2>About Octaview Client</h2>
         <p className="version-badge">v0.1.3</p>
@@ -37,25 +57,7 @@ function Details() {
         </div>
       </section>
 
-      <section className="details-section">
-        <h2>Test the Demo</h2>
-        <div className="test-info">
-          <p>This is a demonstration of the Octaview Client package. To test the application:</p>
-          <ol>
-            <li>Switch to the "Career Opportunities" tab to view the Octaview client in action</li>
-            <li>Browse through the available job listings</li>
-            <li>Click "Apply" on a job listing to test the application process</li>
-          </ol>
-          <div className="demo-credentials">
-            <h3>Demo Dashboard Access</h3>
-            <p>To access the admin dashboard for this demo, use the following credentials:</p>
-            <div className="credentials-box">
-              <p><strong>Email:</strong>octaview.test@yopmail.com</p>
-              <p><strong>Password:</strong> Demo@123</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <section className="details-section">
         <h2>Getting Started</h2>
